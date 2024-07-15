@@ -454,6 +454,7 @@ h1 {
 
 .skills-box .skills-content:hover::before {
   width: 100%;
+  transition: .5s ease;
 }
 
 .skills-content .progress {
@@ -481,6 +482,7 @@ h1 {
   font-size: 1.7rem;
   display: flex;
   justify-content: space-between;
+  transition: 0.5s ease;
 }
 
 .skills-content .progress a:hover {
