@@ -458,6 +458,7 @@ h1 {
 
 .skills-content .progress {
   padding: 1rem 0;
+  transition: .5s ease;
 }
 
 .skills-content .progress:hover {
