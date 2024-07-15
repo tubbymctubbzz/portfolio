@@ -68,7 +68,7 @@ body {
   padding: 10px;
   font-size: 16px;
   line-height: 1.5;
-  background-color: var(--project-color);
+  /* background-color: var(--project-color); */
 
   h1 {
     font-size: 40px;
@@ -109,7 +109,7 @@ body {
   padding: 10px;
   font-size: 16px;
   line-height: 1.5;
-  background-color: var(--project-color);
+  /* background-color: var(--project-color); */
 
   h3 {
     display: flex;
@@ -190,7 +190,7 @@ body {
   padding: 10px;
   font-size: 16px;
   line-height: 1.5;
-  background-color: var(--project-color);
+  /* background-color: var(--project-color); */
 }
 
 .moreinfo {
@@ -201,7 +201,7 @@ body {
   padding: 10px;
   font-size: 16px;
   line-height: 1.5;
-  background-color: var(--project-color);
+  /* background-color: var(--project-color); */
 
   a {
     text-decoration: none;
@@ -226,7 +226,7 @@ body {
   padding: 10px;
   font-size: 16px;
   line-height: 1.5;
-  background-color: var(--project-color);
+  /* background-color: var(--project-color); */
 }
 
 .lb {
@@ -237,7 +237,7 @@ body {
   padding: 10px;
   font-size: 16px;
   line-height: 1.5;
-  background-color: var(--project-color);
+  /* background-color: var(--project-color); */
 }
 
 .cmo {
@@ -248,7 +248,7 @@ body {
   padding: 10px;
   font-size: 16px;
   line-height: 1.5;
-  background-color: var(--project-color);
+  /* background-color: var(--project-color); */
 
   a {
     text-decoration: none;
@@ -273,7 +273,7 @@ body {
   padding: 10px; 
   font-size: 16px;
   line-height: 1.5;
-  background-color: var(--project-color); 
+  /* background-color: var(--project-color);  */
   /* margin-bottom: 10px; */
   color: var(--main-color);
 }
@@ -307,7 +307,7 @@ body {
   padding: 10px;
   font-size: 16px;
   line-height: 1.5;
-  background-color: var(--project-color);
+  /* background-color: var(--project-color); */
 }
 
 section#contact {
@@ -322,7 +322,7 @@ section#contact {
   padding: 10px;
   font-size: 16px;
   line-height: 1.5;
-  background-color: var(--project-color);
+  /* background-color: var(--project-color); */
 }
 
 .contact-form {
@@ -382,7 +382,7 @@ section#contact {
   padding: 72px;
   font-size: 16px;
   line-height: 1.5;
-  background-color: var(--project-color);
+  /* background-color: var(--project-color); */
 
   a {
     text-decoration: none;
@@ -405,7 +405,7 @@ section#contact {
 .skills {
   min-height: auto;
   padding-bottom: 7rem;
-  background: var(--project-color);
+  /* background: var(--project-color); */
   z-index: 1;
   transition: 0.5s ease;
 }
@@ -594,4 +594,93 @@ h1 {
     z-index: 1;
     padding-bottom: 10px;
   }
+}
+
+.timeline-items {
+  max-width: 250px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: center;
+  padding: 2rem;
+  transition: 0.5s ease;
+  z-index: 1;
+}
+
+/* .timeline-items::before {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 85%;
+  background-color: var(--main-color);
+  left: calc(50% - 1px);
+} */
+
+.timeline-item {
+  margin-bottom: 45px;
+  width: 90%;
+  position: relative;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 2px;
+}
+
+.timeline-item:nth-child(odd) {
+  padding-right: calc(50% + 20px);
+  text-align: right;
+}
+
+.timeline-item:nth-child(even) {
+  padding: calc(50% + 20px);
+  text-align: left;
+}
+
+.timeline-dot {
+  height: 21px;
+  width: 20px;
+  background-color: var(--main-color);
+  box-shadow: 0 0 25px var(--main-color),
+              0 0 50px var(--main-color);
+  position: relative;
+  left: calc(50% - 8px);
+  border-radius: 50%;
+  top: 10px;
+}
+
+.timeline-date {
+  font-size: 20px;
+  font-weight: 800;
+  color: white;
+  margin: 6px 0 15px;
+}
+
+.timeline-content {
+  background-color: var(--bg-color);
+  border: 3px solid var(--main-color);
+  padding: 30px 50px;
+  border-radius: 4rem;
+  box-shadow: 0 0 10px var(--main-color);
+  transition: .3s ease-in-out;
+}
+
+.timeline-content:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px var(--main-color);
+}
+
+.timeline-content h3 {
+  font-size: 20px;
+  color: white;
+  margin: 0 0 10px;
+  font-weight: 500;
+}
+
+.timeline-content p {
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
 }
