@@ -584,6 +584,22 @@ h1 {
   }
 }
 
+.heading {
+  font-size: 8rem;
+  text-align: center;
+  margin: 5rem 0;
+}
+
+
+.education {
+  padding: 100px 15px;
+  background: var(--second-bg-color);
+}
+
+.education h2 {
+  margin-bottom: 5rem;
+}
+
 .timeline-items {
   max-width: 250px;
   margin: auto;
@@ -622,7 +638,7 @@ h1 {
   width: 20px;
   background-color: var(--main-color);
   box-shadow: 0 0 25px var(--main-color),
-              0 0 50px var(--main-color);
+  0 0 50px var(--main-color);
   position: relative;
   left: calc(50% - 8px);
   border-radius: 50%;
