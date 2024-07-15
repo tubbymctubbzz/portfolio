@@ -440,6 +440,7 @@ h1 {
 .skills-column .skills-box {
   position: relative;
   width: 100%;
+  transition: .5s ease;
 }
 
 .skills-box .skills-content {
