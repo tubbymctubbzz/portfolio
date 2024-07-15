@@ -586,7 +586,8 @@ h1 {
 
 .heading {
   font-size: 5rem;
-  text-align: left;
+  justify-content: center;
+  align-items: center;
   margin: 5rem 0;
 }
 
