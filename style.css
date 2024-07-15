@@ -406,6 +406,18 @@ h1 {
   color: var(--main-color);
   z-index: 1;
   transition: 0.5s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0 0 10px var(--main-color);
+}
+
+span {
+ 
+  font-weight: bold;
+  margin-left: 10px;
+  color: var(--nav-hover-color);
+  transition: 0.5s ease;
 }
 
 .skills .skills-row {
@@ -584,21 +596,21 @@ h1 {
   }
 }
 
-.heading {
+h2 {
   display: flex;
-  text-align: center;
-  background: var(--first-bg-color);
-  transition: 0.5s ease;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--main-color);
   z-index: 1;
+  transition: 0.5s ease;
+  text-shadow: 0 0 10px var(--main-color);
 }
 
 .education {
   padding: 100px 15px;
   background: var(--second-bg-color);
-}
-
-.education h2 {
-  margin-bottom: 5rem;
+  transition: 0.5s ease;
 }
 
 .timeline-items {
@@ -610,7 +622,7 @@ h1 {
   position: relative;
   justify-content: center;
   padding: 2rem;
-  transition: 0.5s ease;
+  transition: .5s ease;
   z-index: 1;
 }
 
@@ -618,6 +630,7 @@ h1 {
   margin-bottom: 45px;
   width: 90%;
   position: relative;
+  transition: .5s ease;
 }
 
 .timeline-item:last-child {
@@ -659,13 +672,13 @@ h1 {
   padding: 30px 50px;
   border-radius: 4rem;
   box-shadow: 0 0 10px var(--main-color);
-  transition: .3s ease-in-out;
+  transition: .5s ease-in-out;
 }
 
 .timeline-content:hover {
   transform: scale(1.05);
   box-shadow: 0 0 25px var(--main-color);
-  transition: .3s ease-in-out;
+  transition: .5s ease-in-out;
 }
 
 .timeline-content h3 {
