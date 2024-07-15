@@ -68,7 +68,6 @@ body {
   padding: 10px;
   font-size: 16px;
   line-height: 1.5;
-  /* background-color: var(--project-color); */
 
   h1 {
     font-size: 40px;
@@ -190,7 +189,6 @@ body {
   padding: 10px;
   font-size: 16px;
   line-height: 1.5;
-  /* background-color: var(--project-color); */
 }
 
 .moreinfo {
@@ -201,7 +199,6 @@ body {
   padding: 10px;
   font-size: 16px;
   line-height: 1.5;
-  /* background-color: var(--project-color); */
 
   a {
     text-decoration: none;
@@ -226,7 +223,6 @@ body {
   padding: 10px;
   font-size: 16px;
   line-height: 1.5;
-  /* background-color: var(--project-color); */
 }
 
 .lb {
@@ -237,7 +233,6 @@ body {
   padding: 10px;
   font-size: 16px;
   line-height: 1.5;
-  /* background-color: var(--project-color); */
 }
 
 .cmo {
@@ -248,7 +243,6 @@ body {
   padding: 10px;
   font-size: 16px;
   line-height: 1.5;
-  /* background-color: var(--project-color); */
 
   a {
     text-decoration: none;
@@ -273,8 +267,6 @@ body {
   padding: 10px; 
   font-size: 16px;
   line-height: 1.5;
-  /* background-color: var(--project-color);  */
-  /* margin-bottom: 10px; */
   color: var(--main-color);
 }
 
@@ -307,7 +299,6 @@ body {
   padding: 10px;
   font-size: 16px;
   line-height: 1.5;
-  /* background-color: var(--project-color); */
 }
 
 section#contact {
@@ -322,7 +313,6 @@ section#contact {
   padding: 10px;
   font-size: 16px;
   line-height: 1.5;
-  /* background-color: var(--project-color); */
 }
 
 .contact-form {
@@ -382,7 +372,6 @@ section#contact {
   padding: 72px;
   font-size: 16px;
   line-height: 1.5;
-  /* background-color: var(--project-color); */
 
   a {
     text-decoration: none;
@@ -405,7 +394,6 @@ section#contact {
 .skills {
   min-height: auto;
   padding-bottom: 7rem;
-  /* background: var(--project-color); */
   z-index: 1;
   transition: 0.5s ease;
 }
