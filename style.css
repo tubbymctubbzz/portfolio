@@ -585,12 +585,14 @@ h1 {
 }
 
 .heading {
-  font-size: 5rem;
-  justify-content: center;
-  align-items: center;
-  margin: 5rem 0;
+  display: flex;
+  text-align: center;
+  background: var(--first-bg-color);
+  transition: 0.5s ease;
+  z-index: 1;
+  color: var(--nav-color);
+  text-decoration: underline;
 }
-
 
 .education {
   padding: 100px 15px;
