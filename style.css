@@ -689,7 +689,7 @@ h2 {
 }
 
 .timeline-content p {
-  color: white;
+  color: var(--main-color);
   font-size: 16px;
   font-weight: 300;
   line-height: 22px;
